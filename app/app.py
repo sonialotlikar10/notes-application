@@ -40,7 +40,7 @@ HEALTH_FILE = STATE_DIR / "healthy"
 READY_FILE.touch()
 HEALTH_FILE.touch()
 
-print(f"[boot] notes-api startingg — version={__version__} LOG_LEVEL={LOG_LEVEL} PERSIST={PERSIST}")
+print(f"[boot] notes-api starting — version={__version__} LOG_LEVEL={LOG_LEVEL} PERSIST={PERSIST}")
 
 _mem: list[dict] = []
 
